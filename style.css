@@ -75,11 +75,78 @@ a {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.a-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
 }
 
 .box {
-    border: 5px solid #3882f6;
-    height: 100px;
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.text {
+    color: #1f2937;
+}
+
+/*Quote section styling*/
+.quote-container {
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    padding-left: 175px;
+}
+
+.referer {
+    font-weight: 400;
+    padding-left: 520px;
+}
+
+/*Call to action styling*/
+.CTA-section-container {
+    color: #e3e3e3;
+    background-color: #3882f6;
+    max-width: 500px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    margin-left: 260px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+
+.CTA-button2 {
+    color: #e3e3e3;
+    background-color: #3882f6;
+    padding: 8px 16px;
+    border: none;
+    outline: 4px solid #e3e3e3;
+    border-radius: 10px;
+    align-items: flex-end;
+}
+
+/* Footer styling */
+.footer-Container {
+    color: #e3e3e3;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 50px;
 }
